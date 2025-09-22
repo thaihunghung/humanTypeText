@@ -1,5 +1,6 @@
 # humanTypeText
-`async function humanTypeText(page, selector = '', text, options = {}) {
+`
+async function humanTypeText(page, selector = '', text, options = {}) {
     const {
         clearBefore = true,
         minDelay = 80,
@@ -238,4 +239,5 @@
     async function humanMouseMove(page, x, y) {
         await page.mouse.move(x, y, { steps: Math.floor(Math.random() * 10) + 5 });
     }
-}`
+}
+`
